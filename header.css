@@ -1,0 +1,117 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  padding-bottom: 1000px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.aws-logo {
+  height: 36px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.middle-section {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 20px;
+  max-width: 500px;
+}
+
+.inventory-title {
+  flex: 1;
+  font-family: Roberto, Arial;
+  font-size: 16px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.inventory-title:hover {
+  color: rgb(98, 98, 98);
+  text-decoration: underline;
+}
+
+.inventory-title:active {
+  color: rgb(173, 173, 173)
+}
+
+.locations-title {
+  flex: 1;
+  font-family: Roberto, Arial;
+  font-size: 16px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.locations-title:hover {
+  color: rgb(98, 98, 98);
+  text-decoration: underline;
+}
+
+.locations-title:active {
+  color: rgb(173, 173, 173)
+}
+
+.about-title {
+  font-family: Roberto, Arial;
+  font-size: 16px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.about-title:hover {
+  color: rgb(98, 98, 98);
+  text-decoration: underline;
+}
+
+.about-title:active {
+  color: rgb(173, 173, 173)
+}
+
+.right-section {
+  width: 60px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.login-button {
+  font-family: roberto, arial;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.login-button:hover {
+  background-color: rgb(222, 219, 219);
+  transition: background-color 0.3s;
+  text-decoration: underline;
+}
+
+.login-button:active {
+  background-color: rgb(230, 227, 227);
+}
